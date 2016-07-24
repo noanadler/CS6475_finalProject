@@ -19,7 +19,7 @@ def run_flower_identifier(input_file, label2):
     test_img_dic = prepare_db.rezise_images(test_img_dic)
     test_img = test_img_dic["test"]
 
-    image_dir = "db/same_size_images"
+    image_dir = "db/db_images"
     # images is a dictionary with flower name as key and flower images as value
     images = flower_identifier.readImages(image_dir)
 
